@@ -1,0 +1,23 @@
+# Face Detection Dataset Configuration
+# YOLOv26 dataset configuration for face detection training
+
+# Dataset root path (relative to this file or absolute)
+path: ../datasets/face_detection
+
+# Training and validation image directories (relative to 'path')
+train: images/train
+val: images/val
+
+# Optional test set
+# test: images/test
+
+# Class names
+names:
+  0: face
+
+# Number of classes
+nc: 1
+
+# Dataset info (optional)
+# download: https://path-to-dataset-download.com
+# description: Face detection dataset for YOLOv26 training
